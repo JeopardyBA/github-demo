@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM 172.16.1.21:5000/ubuntu:14.10
 
 RUN apt-get update && apt-get install software-properties-common -y
 
